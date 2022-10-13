@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/amigo-network/static/css/main.073c9b0a.css",
+    "main.js": "/amigo-network/static/js/main.23b1da8a.js",
+    "static/js/787.cbe08b72.chunk.js": "/amigo-network/static/js/787.cbe08b72.chunk.js",
+    "static/media/logo.svg": "/amigo-network/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/amigo-network/index.html",
+    "main.073c9b0a.css.map": "/amigo-network/static/css/main.073c9b0a.css.map",
+    "main.23b1da8a.js.map": "/amigo-network/static/js/main.23b1da8a.js.map",
+    "787.cbe08b72.chunk.js.map": "/amigo-network/static/js/787.cbe08b72.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.23b1da8a.js"
+  ]
+}
