@@ -1,0 +1,77 @@
+.cardPost{
+    padding-bottom: 1.25rem;
+    display: flex;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.cardPost textarea {
+    margin-left: 1.25rem;
+    width: 100%;
+}
+
+.cardPostOpt{
+    margin-top: 1.25rem;
+    display: flex;
+}
+
+.optItem{
+    margin-right: 1.25rem;
+}
+
+.postItem{
+    padding: 20px;
+}
+
+.userPostData{
+    display: flex;
+    align-items: center;
+}
+
+.userInfo{
+    margin-left: 20px;
+}
+
+.userInfo p{
+    font-size: 0.8rem;
+    color: #50b5ff;
+}
+
+.postText{
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.postImg {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #cecece;
+}
+
+.postFooter{
+    margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.likeBlock{
+    display: flex;
+    align-items: center;
+}
+
+.likeBlock button{
+    margin-right: 10px;
+}
+
+.shareBlock{
+    display: flex;
+    align-items: center;
+}
+
+.shareBlock button{
+    margin-right: 10px;
+}
+

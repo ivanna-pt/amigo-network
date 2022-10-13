@@ -1,3 +1,28 @@
 .newsfeed{
-    background-color: #61dafb;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsContainer{
+    flex: 0 0 auto;
+    width: 66.6%;
+}
+
+.rightContainer{
+    padding: 0 8px;
+    flex: 0 0 auto;
+    width: 33.3%;
+}
+
+.loadContainer{
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.card{
+    box-shadow: 0 0 1.25rem 0 rgb(0 0 0 / 10%);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
 }
