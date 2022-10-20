@@ -10,23 +10,56 @@ let initialState = {
         {id: 5, user: 'Billy Eilish', date: "1 Oct", postText: "Some text five Some text five Some text five Some text five", likeCount: 7, shareCount: 3},
     ],
 
-    newPostText: ''
-}
+    newPostText: 'some text'
+};
+
+let date = new Date();
+let postDate = date.toLocaleDateString('en-GB', {year: 'numeric', month: 'long', day: 'numeric'});
+
+let idAvailable = function (arr) {
+    let newArr = arr.map(el => el.id);
+    let max = newArr[0];
+    newArr.forEach((elem, index) => {
+        if (index > 0){
+            if(max < elem) {
+                max = elem;
+            }
+        }
+    })
+    let id = max + 1;
+   return id;
+};
 
 const newsfeedReducer = (state = initialState, action) => {
     switch (action.type) {
         case ADD_POST:
             let newPost = {
-                id: 5,
-                message: state.newPostText,
-                likeCount: 0
+                id: idAvailable(initialState.posts),
+                user: 'User Name',
+                date: postDate,
+                postText: state.newPostText,
+                likeCount: 0,
+                shareCount: 0
             };
-            state.posts.push(newPost);
-            state.newPostText = '';
-            return state;
+            return {
+                ...state,
+                posts: [...state.posts, newPost],
+                newPostText: ''
+            };
+            //version5
+            // state.posts.push(newPost);
+            // state.newPostText = '';
+            // return state;
         case UPDATE_NEW_POST_TEXT:
-            state.newPostText = action.newText;
-            return state;
+            //version5
+            // state.newPostText = action.newText;
+            // return state;
+
+            return {
+                ...state,
+                newPostText: action.newText
+            };
+
         default:
             return state;
     }

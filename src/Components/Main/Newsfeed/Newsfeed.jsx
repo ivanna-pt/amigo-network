@@ -9,7 +9,7 @@ const Newsfeed = () => {
     return (
         <div className={style.newsfeed}>
             <div className={style.newsContainer}>
-                <PostsContainer/>
+                <PostsContainer />
             </div>
             <div className={style.rightContainer}>
                <div className="card">

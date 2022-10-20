@@ -2,7 +2,17 @@ import React from "react";
 import '../../../../App.css';
 import style from './Posts.module.css';
 
-const CreatePost = () =>{
+const CreatePost = (props) =>{
+    let newPostElement = React.createRef();
+    let onAddPost = () => {
+        console.log(props)
+        props.addPost();
+
+    };
+    let onPostChange = () => {
+        let text = newPostElement.current.value;
+        props.updateNewPostText(text);
+    }
     return (
         <div className='card'>
             <div className='cardHeader'>
@@ -14,7 +24,8 @@ const CreatePost = () =>{
                 <div className={style.cardPost}>
                     <div className='userImg'>
                     </div>
-                    <textarea  placeholder='Type your post ...'></textarea>
+                    <textarea onChange={onPostChange} value={props.newPostText} ref={newPostElement}  placeholder='Type your post ...'></textarea>
+                    <button className='btn btn-primary' onClick={onAddPost}>Post</button>
                 </div>
                 <ul className={style.cardPostOpt}>
                     <li className={style.optItem}><a href="#" className='btn btn-soft-primary'>Photo/Video</a></li>

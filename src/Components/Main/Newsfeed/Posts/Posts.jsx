@@ -2,6 +2,7 @@ import React from "react";
 import '../../../../App.css';
 import PostItem from "./PostItem";
 import CreatePost from "./CreatePost";
+import CreatePostContainer from "./CreatePostContainer";
 
 // let posts = [
 //     {id: 1, name: 'John Snow', date: "Just Now", message: "Some text one one one ", likeCount: 5, shareCount: 10},
@@ -17,7 +18,7 @@ const Posts = (props) =>{
     let postElement = props.posts.map(post => <PostItem name={post.user} date={post.date} text={post.postText} likes={post.likeCount} share={post.shareCount}/>)
     return (
         <div>
-            <CreatePost/>
+            <CreatePostContainer/>
             {postElement}
         </div>
     )
