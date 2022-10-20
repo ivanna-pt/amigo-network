@@ -9,15 +9,14 @@ import Friends from "./Components/Main/Friends/Friends";
 import Messages from "./Components/Main/Messages/Messages";
 import Group from "./Components/Main/Group/Group";
 
-function App() {
+function App(props) {
   return (
-    <BrowserRouter>
       <div className={style.wrapper}>
         <Header/>
         <Sidebar/>
         <Main>
             <Routes>
-                <Route exact path='/' element={<Newsfeed/>}/>
+                <Route exact path='/home' element={<Newsfeed/>}/>
                 <Route path='/profile' element={<Profile/>}/>
                 <Route path='/friends' element={<Friends/>}/>
                 <Route path='/messages' element={<Messages/>}/>
@@ -25,7 +24,6 @@ function App() {
             </Routes>
         </Main>
       </div>
-    </BrowserRouter>
   );
 }
 

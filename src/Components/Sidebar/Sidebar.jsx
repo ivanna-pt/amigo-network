@@ -6,7 +6,7 @@ const Sidebar = () => {
     return (
         <div className={style.sidebar}>
             <nav className={style.sidebarNav}>
-                <NavLink to="/" className={style.navLink}>Newsfeed</NavLink>
+                <NavLink to="/home" className={style.navLink}>Newsfeed</NavLink>
                 <NavLink to="/profile" className={style.navLink}>Profile</NavLink>
                 <NavLink to="/friends" className={style.navLink}>Friends</NavLink>
                 <NavLink to="/messages" className={style.navLink}>Messages</NavLink>

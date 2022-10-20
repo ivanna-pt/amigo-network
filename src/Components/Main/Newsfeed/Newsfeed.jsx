@@ -3,13 +3,13 @@ import style from './Newsfeed.module.css';
 import '../../../App.css';
 import CreatePost from "./Posts/CreatePost";
 import Posts from "./Posts/Posts";
+import PostsContainer from "./Posts/PostsContainer";
 
 const Newsfeed = () => {
     return (
         <div className={style.newsfeed}>
             <div className={style.newsContainer}>
-                <CreatePost/>
-                <Posts/>
+                <PostsContainer/>
             </div>
             <div className={style.rightContainer}>
                <div className="card">
