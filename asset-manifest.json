@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/amigo-network/static/css/main.0e0ec023.css",
-    "main.js": "/amigo-network/static/js/main.a1cbf3b6.js",
+    "main.css": "/amigo-network/static/css/main.94ef7048.css",
+    "main.js": "/amigo-network/static/js/main.c3ebf905.js",
     "static/js/787.cbe08b72.chunk.js": "/amigo-network/static/js/787.cbe08b72.chunk.js",
     "static/media/user.png": "/amigo-network/static/media/user.01e56127a3c3eb1452f5.png",
     "index.html": "/amigo-network/index.html",
-    "main.0e0ec023.css.map": "/amigo-network/static/css/main.0e0ec023.css.map",
-    "main.a1cbf3b6.js.map": "/amigo-network/static/js/main.a1cbf3b6.js.map",
+    "main.94ef7048.css.map": "/amigo-network/static/css/main.94ef7048.css.map",
+    "main.c3ebf905.js.map": "/amigo-network/static/js/main.c3ebf905.js.map",
     "787.cbe08b72.chunk.js.map": "/amigo-network/static/js/787.cbe08b72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e0ec023.css",
-    "static/js/main.a1cbf3b6.js"
+    "static/css/main.94ef7048.css",
+    "static/js/main.c3ebf905.js"
   ]
 }
