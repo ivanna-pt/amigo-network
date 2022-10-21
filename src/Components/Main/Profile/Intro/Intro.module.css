@@ -1,0 +1,77 @@
+.introWrapper{
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1.25rem 0 rgb(0 0 0 / 10%);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.introBackImg{
+    width: 100%;
+    height: 200px;
+    background-color: #1a64d6;
+    border-radius: 5px !important;
+}
+
+.user{
+    position: absolute;
+    left: 50%;
+    top: 90px;
+    transform: translateX(-50%);
+}
+
+.userImg{
+    background-color: #cecece;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.userInfo{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.userName{
+    margin-top: 10px;
+   text-align: center;
+}
+
+.userSocials{
+    display: flex;
+    align-items: center;
+}
+
+.socialsItem{
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+    background-color: #cecece;
+    border-radius: 5px;
+}
+
+
+
+.userStat{
+    display: flex;
+}
+
+.statItem{
+    padding-left: 20px;
+}
+
+.statTitle{
+    text-align: center;
+    font-weight: 700;
+    color: #3f414d;
+    line-height: 1.5;
+}
+
+.statText{
+    text-align: center;
+    font-weight: 300;
+}
