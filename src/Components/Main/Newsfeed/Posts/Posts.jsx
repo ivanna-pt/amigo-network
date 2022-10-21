@@ -15,7 +15,7 @@ import CreatePostContainer from "./CreatePostContainer";
 // let postElement = posts.map(post => <PostItem name={post.name} date={post.date} text={post.message} likes={post.likeCount} share={post.shareCount}/>)
 
 const Posts = (props) =>{
-    let postElement = props.posts.map(post => <PostItem name={post.user} date={post.date} text={post.postText} likes={post.likeCount} share={post.shareCount}/>)
+    let postElement = props.posts.map((post, index) => <PostItem key={index} name={post.user} date={post.date} text={post.postText} likes={post.likeCount} share={post.shareCount}/>)
     return (
         <div>
             <CreatePostContainer/>

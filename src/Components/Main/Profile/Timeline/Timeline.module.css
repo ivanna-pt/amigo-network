@@ -1,0 +1,15 @@
+.wrapper{
+    display: flex;
+}
+
+.leftSide{
+    padding: 0 8px;
+    flex: 0 0 auto;
+    width: 33.33333%;
+}
+
+.postsWrapper{
+    padding: 0 8px;
+    flex: 0 0 auto;
+    width: 66.66666%;
+}

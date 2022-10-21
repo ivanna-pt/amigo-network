@@ -8,9 +8,11 @@ let initialState = {
         {id: 3, user: 'Ariana Grande', date: "Yesterday", postText: "Some text three Some text three Some text three", likeCount: 0, shareCount: 0},
         {id: 4, user: 'Tom Cruise', date: "2 days ago", postText: "Some text four Some text four Some text four Some text four", likeCount: 10, shareCount: 2},
         {id: 5, user: 'Billy Eilish', date: "1 Oct", postText: "Some text five Some text five Some text five Some text five", likeCount: 7, shareCount: 3},
+        {id: 6, user: 'User Name', date: "18 Oct", postText: "Some text six Some text six Some text six Some text six", likeCount: 12, shareCount: 13},
+        {id: 7, user: 'User Name', date: "22 Oct", postText: "Some text seven Some text seven Some text seven Some text seven", likeCount: 9, shareCount: 0},
     ],
 
-    newPostText: 'some text'
+    newPostText: ''
 };
 
 let date = new Date();
