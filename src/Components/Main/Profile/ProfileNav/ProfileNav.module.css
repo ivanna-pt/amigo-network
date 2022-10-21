@@ -1,0 +1,28 @@
+.wrapper{
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 1.25rem 0 rgb(0 0 0 / 10%);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+.navLink{
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.navItem{
+    text-align: center;
+    padding: 1.25rem 0.625rem;
+    border-radius: 5px;
+    transition: all 0.2s ease-in;
+}
+
+.navItem:hover{
+    background-color: rgba(80, 181, 255, 0.1);
+}
+
+.active{
+    color: #fff;
+    background: #50b5ff;
+}
