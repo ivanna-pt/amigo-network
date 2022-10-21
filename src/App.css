@@ -106,11 +106,11 @@ button{
 }
 
 .active{
-  color: #fff;
+  color: #fff!important;
   background: #50b5ff;
   border-radius: 5px;
 }
 
 /*.active:hover{*/
-/*  color: inherit!important;*/
+/*  color: #FFFFFF!important;*/
 /*}*/

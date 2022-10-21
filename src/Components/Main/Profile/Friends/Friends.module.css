@@ -1,3 +1,4 @@
+
 .friends{
     padding: 20px;
     box-shadow: 0 0 1.25rem 0 rgb(0 0 0 / 10%);
@@ -11,6 +12,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.navBar{
+    display: flex;
+}
+
+.navLink{
+    padding: 8px 16px;
+    color: #50b5ff;
 }
 
 .friendsContainer{
