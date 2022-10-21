@@ -8,9 +8,10 @@ const Sidebar = () => {
             <nav className={style.sidebarNav}>
                 <NavLink to="/home" className={style.navLink}>Newsfeed</NavLink>
                 <NavLink to="/profile" className={style.navLink}>Profile</NavLink>
-                <NavLink to="/friends" className={style.navLink}>Friends</NavLink>
+                {/*<NavLink to="/friends" className={style.navLink}>Friends</NavLink>*/}
                 <NavLink to="/messages" className={style.navLink}>Messages</NavLink>
                 <NavLink to="/group" className={style.navLink}>Groups</NavLink>
+                <NavLink to="/saved" className={style.navLink}>Saved</NavLink>
                 <NavLink to="/settings" className={style.navLink}>Settings</NavLink>
             </nav>
         </div>

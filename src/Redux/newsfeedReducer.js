@@ -76,5 +76,6 @@ export const updateNewPostTextActionCreator = (text) => {
         newText: text
     }
 }
+console.log(initialState);
 
 export default newsfeedReducer;
