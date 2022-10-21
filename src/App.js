@@ -16,10 +16,10 @@ function App(props) {
         <Sidebar/>
         <Main>
             <Routes>
-                <Route exact path='/home' element={<Newsfeed/>}/>
-                <Route path='/profile/*' element={<Profile/>}/>
-                <Route path='/messages/*' element={<Messages/>}/>
-                <Route path='/group' element={<Group/>}/>
+                <Route exact path='/amigo-network' element={<Newsfeed/>}/>
+                <Route path='/amigo-network/profile/*' element={<Profile/>}/>
+                <Route path='/amigo-network/messages/*' element={<Messages/>}/>
+                <Route path='/amigo-network/group' element={<Group/>}/>
             </Routes>
         </Main>
       </div>
