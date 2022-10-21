@@ -19,6 +19,7 @@
 }
 
 .navItem:hover{
+    color: #50b5ff;
     background-color: rgba(80, 181, 255, 0.1);
 }
 

@@ -13,3 +13,12 @@
     flex: 0 0 auto;
     width: 66.66666%;
 }
+
+.cardHeader{
+    padding: 15px 20px;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.cardBody{
+    padding: 20px;
+}
