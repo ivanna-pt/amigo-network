@@ -25,13 +25,14 @@ const CreatePost = (props) =>{
                     <div className='userImg'>
                     </div>
                     <textarea onChange={onPostChange} value={props.newPostText} ref={newPostElement}  placeholder='Type your post ...'></textarea>
-                    <button className='btn btn-primary' onClick={onAddPost}>Post</button>
+
                 </div>
                 <ul className={style.cardPostOpt}>
                     <li className={style.optItem}><a href="#" className='btn btn-soft-primary'>Photo/Video</a></li>
                     <li className={style.optItem}><a href="#" className='btn btn-soft-primary'>Tag</a></li>
                     <li className={style.optItem}><a href="#" className='btn btn-soft-primary'>Feeling</a></li>
                     <li className={style.optItem}><a href="#" className='btn btn-soft-primary'>...</a></li>
+                    <li><button className='btn btn-primary' onClick={onAddPost}>Post</button></li>
                 </ul>
 
             </div>
