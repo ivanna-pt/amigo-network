@@ -23,7 +23,6 @@
     background-color: rgba(80, 181, 255, 0.1);
 }
 
-.active{
-    color: #fff;
-    background: #50b5ff;
+.navItem.active:hover{
+    color: #FFFFFF!important;
 }

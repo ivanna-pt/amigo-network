@@ -104,3 +104,13 @@ button{
   background-color: rgba(80, 181, 255, 0.4);
   border-color: rgba(80, 181, 255, 0);
 }
+
+.active{
+  color: #fff;
+  background: #50b5ff;
+  border-radius: 5px;
+}
+
+/*.active:hover{*/
+/*  color: inherit!important;*/
+/*}*/
